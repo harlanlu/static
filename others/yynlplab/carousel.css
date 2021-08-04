@@ -2,6 +2,14 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+/**** 去除系统其他元素 start ****/
+  #headtop, #header, #nav, #wp-navi-aside, #container-1, #container-4, #footer{display: none;}
+  .col_news_head, .col_menu, .arti_publisher{display: none;}
+  .col_news .col_news_box { margin-left: 0px; }
+  .wp_entry { overflow-x: auto;}
+/**** 去除系统其他元素 end ****/
+
+
 body {
   /*padding-top: 3rem;*/
   padding-bottom: 3rem;
