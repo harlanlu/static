@@ -7,6 +7,7 @@
   .col_news_head, .col_menu, .arti_publisher{display: none;}
   .col_news .col_news_box { margin-left: 0px; }
   .wp_entry { overflow-x: auto;}
+  #jumphandle{display: none;}
 /**** 去除系统其他元素 end ****/
 
 
@@ -205,9 +206,9 @@ body {
 
 /*  .myleft{float: right;}
   .myright{float: left;}*/
-  
+
   /*去除手机页，返回顶部*/
-  .myleft{display: none;}  
+  /*.myleft{display: none;}  */
   .back2up{display: none;}
 
 
@@ -219,7 +220,7 @@ body {
     margin-top: 7rem;
   }
   /*去除手机页，返回顶部*/
-  .back2up{display: none;}
+  /*.back2up{display: none;}*/
   .myleft{display: none;}
   
 }
