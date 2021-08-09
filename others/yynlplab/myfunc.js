@@ -46,4 +46,3 @@ function back2top() {
         scrollTop: $('#top').offset().top - 100
     }, 800); //100为锚点到距顶部的距离，500为执行时间
 }
-
