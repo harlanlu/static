@@ -1,7 +1,23 @@
 
 // 去除logo图片
-var logoimg=document.getElementById('logoimg')
-logoimg.remove()
+var logoimg=document.getElementById('logoimg');
+logoimg.remove();
+setNav();
+
+
+function setNav(){
+    var navDiv=document.getElementById("navbarsExample07XL");
+    navDiv.innerHTML='<ul class="navbar-nav mr-auto">'
+    +'<li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="news.html">新闻动态</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="team.html">科研团队</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="achievements.html">科研成果</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="reports.html">学术报告</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="photos.html">缤纷相册</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="downloads.html">下载中心</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="内容页模板.html">内容页</a></li>'
+    +'</ul>';
+}
 
 function onTeachers() {
     // window.location.href = "#teachers";
