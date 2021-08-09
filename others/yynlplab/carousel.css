@@ -8,6 +8,7 @@
   .col_news .col_news_box { margin-left: 0px; }
   .wp_entry { overflow-x: auto;}
   #jumphandle{display: none;}
+  .arti_metas,arti_title{display: none;}
 /**** 去除系统其他元素 end ****/
 
 
