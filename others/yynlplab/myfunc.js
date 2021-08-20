@@ -15,7 +15,7 @@ function setNav(){
     +'<li class="nav-item"><a class="nav-link" href="reports.html">学术报告</a></li>'
     +'<li class="nav-item"><a class="nav-link" href="photos.html">缤纷相册</a></li>'
     +'<li class="nav-item"><a class="nav-link" href="downloads.html">下载中心</a></li>'
-    +'<li class="nav-item"><a class="nav-link" href="内容页模板.html">内容页</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="内容页模板.html">内容页1</a></li>'
     +'</ul>';
 }
 
