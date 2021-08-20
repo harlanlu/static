@@ -6,17 +6,24 @@ setNav();
 console.log("success...");
 
 function setNav(){
-    var navDiv=document.getElementById("navbarsExample07XL");
-    navDiv.innerHTML='<ul class="navbar-nav mr-auto">'
-    +'<li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>'
-    +'<li class="nav-item"><a class="nav-link" href="news.html">新闻动态</a></li>'
-    +'<li class="nav-item"><a class="nav-link" href="team.html">科研团队</a></li>'
-    +'<li class="nav-item"><a class="nav-link" href="achievements.html">科研成果</a></li>'
-    +'<li class="nav-item"><a class="nav-link" href="reports.html">学术报告</a></li>'
-    +'<li class="nav-item"><a class="nav-link" href="photos.html">缤纷相册</a></li>'
-    +'<li class="nav-item"><a class="nav-link" href="downloads.html">下载中心</a></li>'
-    +'<li class="nav-item"><a class="nav-link" href="内容页模板.html">内容页1</a></li>'
-    +'</ul>';
+    var navDiv=document.getElementById("mymenu");
+    navDiv.innerHTML='<div class="container-xl">'
+    +'<span class="navbar-brand" >'
+    +'<img src="https://getbootstrap.net/assets/brand/bootstrap-solid.svg" id="logoimg" width="30" height="30" class="d-inline-block align-top" alt="logoImg">'
+    +'情感智能与智慧教育实验室</span>'
+    +'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">'
+    +'<span class="navbar-toggler-icon"></span>'
+    +'</button>'
+    +'<div class="collapse navbar-collapse" id="navbarsExample07XL">'
+    +'<ul class="navbar-nav mr-auto">'
+    +'<li class="nav-item"><a class="nav-link" href="https://jsj.xjnu.edu.cn/nlp/main.psp">首页</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="https://jsj.xjnu.edu.cn/2021/0818/c12641a115890/page.psp">新闻动态</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="https://jsj.xjnu.edu.cn/2021/0818/c12641a115892/page.psp">科研团队</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="https://jsj.xjnu.edu.cn/2021/0818/c12641a115891/page.psp">科研成果</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="https://jsj.xjnu.edu.cn/2021/0818/c12641a115893/page.psp">学术报告</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="https://jsj.xjnu.edu.cn/2021/0818/c12641a115894/page.psp">缤纷相册</a></li>'
+    +'<li class="nav-item"><a class="nav-link" href="https://jsj.xjnu.edu.cn/2021/0818/c12641a115895/page.psp">下载中心</a></li>'
+    +'</ul> </div> </div>';
 }
 
 function onTeachers() {
