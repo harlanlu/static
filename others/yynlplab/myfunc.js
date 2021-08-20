@@ -3,7 +3,7 @@
 var logoimg=document.getElementById('logoimg');
 logoimg.remove();
 setNav();
-
+console.log("success...");
 
 function setNav(){
     var navDiv=document.getElementById("navbarsExample07XL");
